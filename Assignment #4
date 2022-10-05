@@ -1,0 +1,75 @@
+Assignment #4
+
+Jayleen Lemon
+October 4 2022
+Linux Programing
+
+jayleen@cscstudent-VirtualBox:~$ date
+Tue 04 Oct 2022 06:41:27 PM CDT
+
+jayleen@cscstudent-VirtualBox:~$ man
+What manual page do you want?
+For example, try 'man man'.
+
+jayleen@cscstudent-VirtualBox:~$ passwrd
+
+Command 'passwrd' not found, did you mean:
+
+  command 'passwd' from deb passwd (1:4.8.1-1ubuntu5.20.04.2)
+
+Try: sudo apt install <deb name>
+
+jayleen@cscstudent-VirtualBox:~$ more -f
+more: bad usage
+Try 'more --help' for more information.
+
+jayleen@cscstudent-VirtualBox:~$ head -n
+head: option requires an argument -- 'n'
+Try 'head --help' for more information
+
+jayleen@cscstudent-VirtualBox:~$ tail -n
+tail: option requires an argument -- 'n'
+Try 'tail --help' for more information.
+
+jayleen@cscstudent-VirtualBox:~$ mv -i
+mv: missing file operand
+Try 'mv --help' for more information.
+
+jayleen@cscstudent-VirtualBox:~$ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+
+jayleen@cscstudent-VirtualBox:~$ cd
+
+jayleen@cscstudent-VirtualBox:~$ cp
+cp: missing file operand
+Try 'cp --help' for more information.
+
+jayleen@cscstudent-VirtualBox:~$ rmdir
+rmdir: missing operand
+Try 'rmdir --help' for more information.
+
+jayleen@cscstudent-VirtualBox:~$ rm
+rm: missing operand
+Try 'rm --help' for more information.
+
+jayleen@cscstudent-VirtualBox:~$ lpq
+lpq: Error - no default destination available.
+jayleen@cscstudent-VirtualBox:~$ lprm
+jayleen@cscstudent-VirtualBox:~$ file
+Usage: file [-bcCdEhikLlNnprsSvzZ0] [--apple] [--extension] [--mime-encoding]
+            [--mime-type] [-e <testname>] [-F <separator>]  [-f <namefile>]
+            [-m <magicfiles>] [-P <parameter=value>] <file> ...
+       file -C [-m <magicfiles>]
+       file [--help]
+
+jayleen@cscstudent-VirtualBox:~$ groups
+jayleen sudo
+
+jayleen@cscstudent-VirtualBox:~$ chgrp -R
+chgrp: missing operand
+Try 'chgrp --help' for more information.
+
+jayleen@cscstudent-VirtualBox:~$ chown
+chown: missing operand
+Try 'chown --help' for more information.
