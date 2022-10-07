@@ -1,0 +1,261 @@
+Assignment #4
+
+
+Jayleen Lemon
+October 4 2022
+Linux Programing
+
+
+jayleen@cscstudent-VirtualBox:~$ date
+Tue 04 Oct 2022 06:41:27 PM CDT
+
+
+jayleen@cscstudent-VirtualBox:~$ man
+What manual page do you want?
+For example, try 'man man'.
+
+
+jayleen@cscstudent-VirtualBox:~$ passwrd
+Command 'passwrd' not found, did you mean:
+  command 'passwd' from deb passwd (1:4.8.1-1ubuntu5.20.04.2)
+Try: sudo apt install <deb name>
+
+
+jayleen@cscstudent-VirtualBox:~$ more -f
+more: bad usage
+Try 'more --help' for more information.
+
+
+jayleen@cscstudent-VirtualBox:~$ head -n
+head: option requires an argument -- 'n'
+Try 'head --help' for more information
+
+
+jayleen@cscstudent-VirtualBox:~$ tail -n
+tail: option requires an argument -- 'n'
+Try 'tail --help' for more information.
+
+
+jayleen@cscstudent-VirtualBox:~$ mv -i
+mv: missing file operand
+Try 'mv --help' for more information.
+
+
+jayleen@cscstudent-VirtualBox:~$ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+
+
+jayleen@cscstudent-VirtualBox:~$ cd
+
+
+jayleen@cscstudent-VirtualBox:~$ cp
+cp: missing file operand
+Try 'cp --help' for more information.
+
+
+jayleen@cscstudent-VirtualBox:~$ rmdir
+rmdir: missing operand
+Try 'rmdir --help' for more information.
+
+
+jayleen@cscstudent-VirtualBox:~$ rm
+rm: missing operand
+Try 'rm --help' for more information.
+
+
+jayleen@cscstudent-VirtualBox:~$ lpq
+lpq: Error - no default destination available.
+
+
+jayleen@cscstudent-VirtualBox:~$ lprm
+
+
+jayleen@cscstudent-VirtualBox:~$ file
+Usage: file [-bcCdEhikLlNnprsSvzZ0] [--apple] [--extension] [--mime-encoding]
+            [--mime-type] [-e <testname>] [-F <separator>]  [-f <namefile>]
+            [-m <magicfiles>] [-P <parameter=value>] <file> ...
+       file -C [-m <magicfiles>]
+       file [--help]
+
+jayleen@cscstudent-VirtualBox:~$ groups
+jayleen sudo
+
+
+jayleen@cscstudent-VirtualBox:~$ chgrp -R
+chgrp: missing operand
+Try 'chgrp --help' for more information.
+
+
+jayleen@cscstudent-VirtualBox:~$ chown
+chown: missing operand
+Try 'chown --help' for more information.
+
+
+jayleen@cscstudent-VirtualBox:~$ wc
+
+
+jayleen@cscstudent-VirtualBox:~$ man -k
+apropos what?
+
+
+jayleen@cscstudent-VirtualBox:~$ man chmod
+
+
+jayleen@cscstudent-VirtualBox:~$ stty -a
+speed 38400 baud; rows 24; columns 80; line = 0;
+
+intr = ^C; quit = ^\; erase = ^?; kill = ^U; eof = ^D; eol = <undef>;
+eol2 = <undef>; swtch = <undef>; start = ^Q; stop = ^S; susp = ^Z; rprnt = ^R;
+
+werase = ^W; lnext = ^V; discard = ^O; min = 1; time = 0;
+-parenb -parodd -cmspar cs8 -hupcl -cstopb cread -clocal -crtscts
+
+-ignbrk -brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr icrnl ixon -ixoff
+-iuclc -ixany -imaxbel iutf8
+
+opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0 tab0 bs0 vt0 ff0
+isig icanon iexten echo echoe echok -echonl -noflsh -xcase -tostop -echoprt
+
+echoctl echoke -flusho -extproc
+
+jayleen@cscstudent-VirtualBox:~$ q
+Command 'q' not found, but can be installed with:
+sudo snap install q                       # version 1.6.3-1, or
+
+sudo apt  install python3-q-text-as-data  # version 1.7.4+2018.12.21+git+28f776ed46-2
+
+See 'snap info q' for additional versions.
+
+jayleen@cscstudent-VirtualBox:~$ mail tim
+Cc: Mail comand
+
+jayleen@cscstudent-VirtualBox:~$ pwd
+/home/jayleen
+
+
+jayleen@cscstudent-VirtualBox:~$ cat > heart
+I hear her breathing
+I'm surrounded by sounds
+Floating in this secret place.
+I never shall be found.
+$ _^
+
+
+jayleen@cscstudent-VirtualBox:~$ ls
+dead.letter  Documents  heart  Pictures  snap       Videos
+Desktop      Downloads  Music  Public    Templates
+
+
+jayleen@cscstudent-VirtualBox:~$ ls -lG heart
+-rw-rw-r-- 1 jayleen 101 Oct  6 18:47 heart
+
+
+jayleen@cscstudent-VirtualBox:~$ ls -alFs
+total 108
+4 drwxr-xr-x 19 jayleen jayleen 4096 Oct  6 18:45 ./
+4 drwxr-xr-x  4 root    root    4096 Sep 20 19:23 ../
+4 -rw-------  1 jayleen jayleen  402 Oct  4 19:13 .bash_history
+4 -rw-r--r--  1 jayleen jayleen  220 Sep 20 19:23 .bash_logout
+4 -rw-r--r--  1 jayleen jayleen 3771 Sep 20 19:23 .bashrc
+4 drwx------ 17 jayleen jayleen 4096 Oct  4 18:19 .cache/
+4 drwxr-xr-x 16 jayleen jayleen 4096 Oct  4 19:13 .config/
+4 -rw-------  1 jayleen jayleen   70 Oct  6 18:44 dead.letter
+4 drwxr-xr-x  2 jayleen jayleen 4096 Sep 27 20:05 Desktop/
+4 drwxr-xr-x  2 jayleen jayleen 4096 Oct  4 19:08 Documents/
+4 drwxr-xr-x  2 jayleen jayleen 4096 Sep 27 18:23 Downloads/
+4 -rw-rw-r--  1 jayleen jayleen  652 Sep 29 18:28 .emacs
+4 -rw-rw-r--  1 jayleen jayleen  652 Sep 29 18:24 .emacs~
+4 drwx------  5 jayleen jayleen 4096 Sep 27 18:58 .emacs.d/
+4 drwx------  3 jayleen jayleen 4096 Sep 27 18:23 .gnupg/
+4 -rw-rw-r--  1 jayleen jayleen  101 Oct  6 18:47 heart
+4 drwxr-xr-x  3 jayleen jayleen 4096 Sep 27 18:23 .local/
+4 drwx------  5 jayleen jayleen 4096 Sep 27 18:35 .mozilla/
+4 drwxr-xr-x  2 jayleen jayleen 4096 Sep 27 18:23 Music/
+4 drwxr-xr-x  2 jayleen jayleen 4096 Sep 27 18:23 Pictures/
+4 drwx------  3 jayleen jayleen 4096 Sep 27 18:38 .pki/
+4 -rw-r--r--  1 jayleen jayleen  807 Sep 20 19:23 .profile
+4 drwxr-xr-x  2 jayleen jayleen 4096 Sep 27 18:23 Public/
+4 drwx------  5 jayleen jayleen 4096 Oct  4 18:19 snap/
+4 drwxr-xr-x  2 jayleen jayleen 4096 Sep 27 18:23 Templates/
+4 drwx------  6 jayleen jayleen 4096 Sep 27 18:40 .thunderbird/
+4 drwxr-xr-x  2 jayleen jayleen 4096 Sep 27 18:23 Videos/
+
+jayleen@cscstudent-VirtualBox:~$ cat heart
+I hear her breathing
+I'm surrounded by sounds
+Floating in this secret place.
+I never shall be found.
+
+jayleen@cscstudent-VirtualBox:~$ head -2 heart
+I hear her breathing
+I'm surrounded by sounds
+
+jayleen@cscstudent-VirtualBox:~$ tail -2 heart
+Floating in this secret place.
+I never shall be found.
+
+jayleen@cscstudent-VirtualBox:~$ mv heart heart.ver1
+
+jayleen@cscstudent-VirtualBox:~$ mkdir lyrics
+mkdir: cannot create directory ‘lyrics’: File exists
+
+jayleen@cscstudent-VirtualBox:~$ cp heart.ver1 heart.ver2
+
+jayleen@cscstudent-VirtualBox:~$ cd
+
+jayleen@cscstudent-VirtualBox:~$ cp lyrics.draft/heart.ver5 lyrics.final/heart.final
+cp: cannot stat 'lyrics.draft/heart.ver5': No such file or directory
+
+jayleen@cscstudent-VirtualBox:~$ rmdir lyrics.draft
+rmdir: failed to remove 'lyrics.draft': No such file or directory
+
+jayleen@cscstudent-VirtualBox:~$ rm heart.ver1 heart.ver2 heart.ver3 heart.ver4 heart.ver5
+rm: cannot remove 'heart.ver3': No such file or directory
+rm: cannot remove 'heart.ver4': No such file or directory
+rm: cannot remove 'heart.ver5': No such file or directory
+jayleen@cscstudent-VirtualBox:~$ rmdir lyrics.draft
+
+rmdir: failed to remove 'lyrics.draft': No such file or directory
+
+jayleen@cscstudent-VirtualBox:~$ wc
+$ wc heart.final     ...obtain a word count.
+  9    43     213 heart.final
+$ _^
+
+jayleen@cscstudent-VirtualBox:~$ file heart.final
+heart.final: cannot open `heart.final' (No such file or directory
+
+jayleen@cscstudent-VirtualBox:~$ file
+Usage: file [-bcCdEhikLlNnprsSvzZ0] [--apple] [--extension] [--mime-encoding]
+            [--mime-type] [-e <testname>] [-F <separator>]  [-f <namefile>]
+            [-m <magicfiles>] [-P <parameter=value>] <file> ...
+       file -C [-m <magicfiles>]
+       file [--help]
+jayleen@cscstudent-VirtualBox:~$ file heart.final
+heart.final: cannot open `heart.final' (No such file or directory)
+jayleen@cscstudent-VirtualBox:~$ groups
+jayleen sudo
+jayleen@cscstudent-VirtualBox:~$ chgrp -R
+chgrp: missing operand
+Try 'chgrp --help' for more information.
+jayleen@cscstudent-VirtualBox:~$ chown -R
+chown: missing operand
+Try 'chown --help' for more information.
+jayleen@cscstudent-VirtualBox:~$ newgrp
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+jayleen@cscstudent-VirtualBox:~$ newgrp music
+newgrp: group 'music' does not exist
+jayleen@cscstudent-VirtualBox:~$ stty -a
+speed 38400 baud; rows 24; columns 80; line = 0;
+intr = ^C; quit = ^\; erase = ^?; kill = ^U; eof = ^D; eol = <undef>;
+eol2 = <undef>; swtch = <undef>; start = ^Q; stop = ^S; susp = ^Z; rprnt = ^R;
+werase = ^W; lnext = ^V; discard = ^O; min = 1; time = 0;
+-parenb -parodd -cmspar cs8 -hupcl -cstopb cread -clocal -crtscts
+-ignbrk -brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr icrnl ixon -ixoff
+-iuclc -ixany -imaxbel iutf8
+opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0 tab0 bs0 vt0 ff0
+isig icanon iexten echo echoe echok -echonl -noflsh -xcase -tostop -echoprt
+echoctl echoke -flusho -extproc
